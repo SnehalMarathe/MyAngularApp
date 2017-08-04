@@ -1,0 +1,20 @@
+.ui-tabview {
+    padding: 0!important;
+}
+.ui-tabview .ui-tabview-nav li .ui-tabview-left-icon, .ui-tabview .ui-tabview-nav li .ui-tabview-right-icon, .ui-tabview .ui-tabview-nav li .ui-tabview-title {
+    vertical-align: middle;
+    color: #132841!important;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    text-transform: uppercase;
+}
+.ui-tabview .ui-tabview-panel {
+    border-width: 0;
+    padding: 0!important;
+    background: none;
+}
+.ui-tabview.ui-tabview-top > .ui-tabview-nav {
+    padding: 0;
+}
