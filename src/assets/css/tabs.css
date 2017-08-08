@@ -3,7 +3,7 @@
 }
 .ui-tabview .ui-tabview-nav li .ui-tabview-left-icon, .ui-tabview .ui-tabview-nav li .ui-tabview-right-icon, .ui-tabview .ui-tabview-nav li .ui-tabview-title {
     vertical-align: middle;
-    color: #132841!important;
+    color: #616c7d;
     font-family: Roboto;
     font-size: 14px;
     font-weight: 500;
@@ -17,4 +17,8 @@
 }
 .ui-tabview.ui-tabview-top > .ui-tabview-nav {
     padding: 0;
+}
+.ui-tabview-selected > a > .ui-tabview-title {
+    color: #132841!important;
+    border-bottom:2px solid  #1BBAE1;
 }

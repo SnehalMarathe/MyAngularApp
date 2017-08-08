@@ -7,7 +7,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 //Component Primeng
 import {InputTextModule, ButtonModule, PanelModule, MenubarModule,MenuItem, DropdownModule, TabViewModule} from 'primeng/primeng';
 import { HeaderComponent } from './header/header.component';
-import { TabsComponent } from './tabs/tabs.component';
 import { DigitalPrefixComponent } from './digital-prefix/digital-prefix.component';
 import { ChannelNotificationComponent } from './channel-notification/channel-notification.component';
 import { SearchbarComponent } from './searchbar/searchbar.component';
@@ -18,8 +17,7 @@ import { SubmissionsTabsComponent } from './submissions-tabs/submissions-tabs.co
 @NgModule({
   declarations: [
     AppComponent,    
-    HeaderComponent,
-    TabsComponent,
+    HeaderComponent,    
     DigitalPrefixComponent,
     ChannelNotificationComponent,
     SearchbarComponent,
