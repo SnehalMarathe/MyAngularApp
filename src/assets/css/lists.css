@@ -1,0 +1,12 @@
+.list-items{
+   list-style-type: none;
+   padding:0;
+   margin:8px 0 0 0;
+}
+.list-items li{
+    padding:8px 0;
+    color: #616C7D;	
+    font-size: 14px;	
+    line-height: 16px;
+    background-color: #F9FAFC;
+}

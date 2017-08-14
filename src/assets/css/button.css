@@ -1,0 +1,17 @@
+
+.ui-button{
+    border-radius:3px;
+}
+.ui-button.ui-button-success.ui-state-default, .ui-splitbutton.ui-button-success .ui-button.ui-state-default {
+    background-color: #5cb85c;
+    color: #fff;
+    border: 1px solid #5cb85c;
+}
+.ui-button.ui-button-danger.ui-state-default, .ui-splitbutton.ui-button-danger .ui-button.ui-state-default {
+    background-color: #d9534f;
+    border: 1px solid #d9534f;
+    color: #fff;
+}
+.ui-button-text-only .ui-button-text {
+    padding: .5em 1em;
+}

@@ -1,0 +1,29 @@
+.ui-dropdown {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    vertical-align: middle;
+    height:32px;
+    width: 100%!important;
+    border: 1px solid #D2DCE6;	
+    border-radius: 2px;
+    line-height: 24px;
+}
+.ui-dropdown .ui-dropdown-trigger{
+    top:4px;
+}
+.ui-dropdown .ui-dropdown-panel {
+    min-width: 100%;
+    background: #fff;
+}
+.ui-dropdown .ui-dropdown-label{
+    color:#333a44
+}
+.ui-dropdown-panel .ui-dropdown-filter-container{
+    width:100%;
+}
+.ui-dropdown-panel .ui-dropdown-item {
+    
+    color: #616C7D;
+    line-height: 24px;
+}

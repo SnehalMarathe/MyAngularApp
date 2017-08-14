@@ -1,0 +1,23 @@
+<div class="ui-g" [ngStyle]="{'height':'100%'}">
+<div class="ui-g-12 ui-md-12" [ngStyle]="{'height':'100%'}">
+<p-tabView >
+  <p-tabPanel header="Add"  >    
+      Add Submissions
+  </p-tabPanel>
+  <p-tabPanel header="Operations Dashboard">
+    Content 2
+  </p-tabPanel>
+  <p-tabPanel header="Security">
+    Content 3
+  </p-tabPanel>
+  <p-tabPanel header="Notifications" [selected]="true" [ngStyle]="{'height':'100%'}">
+    <div class="ui-g-6 ui-md-6" [ngStyle]="{'height':'100%'}">
+        <app-digital-prefix> </app-digital-prefix>
+      </div>
+      <div class="ui-g-6 ui-md-6" [ngStyle]="{'height':'100%'}">
+        <app-channel-notification></app-channel-notification>
+      </div>
+  </p-tabPanel>
+</p-tabView>
+</div>
+    </div>

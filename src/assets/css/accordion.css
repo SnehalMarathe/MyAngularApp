@@ -1,0 +1,24 @@
+.ui-accordion .ui-accordion-header{
+    height: 48px;	
+    border: 1px solid #DBE1E8;	
+    background-color: #F9FAFC!important;
+    color: #132841;   
+    font-size: 16px;	
+    font-weight: 500;	
+    line-height: 32px;
+}
+.ui-accordion .ui-accordion-header a{
+    height: 48px;	
+    border: 1px solid #DBE1E8;	
+    background-color: #F9FAFC!important;
+    color: #132841;   
+    font-size: 16px;	
+    font-weight: 500;	
+    line-height: 32px;
+    text-decoration:none;
+}
+.ui-panel .ui-panel-content{
+    border: 1px solid #DBE1E8;	
+    background-color: #FFFFFF;
+    border-top:0;
+}

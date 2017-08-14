@@ -1,0 +1,29 @@
+.wrapper .topbar {
+    transition: left .3s;    
+    height: 56px;
+    background-color: #132841;	
+    box-shadow: 0 2px 6px 0 rgba(0,0,0,0.2);
+    box-sizing: border-box;
+    color: #fff;
+    z-index: 101;
+    padding:8px 0!important;
+}
+.page-header{
+margin:0;
+color: #FFFFFF;	
+font-size: 1.2rem;	
+line-height: 40px;
+font-weight:normal;
+float:left;
+}
+.ui-menu .ui-menuitem-parent, .ui-menu .ui-menuitem{
+    width:100%!important;
+    float:none!important;
+}
+.logo{
+    width:100px;
+    float:left;
+}
+.wrapper > .ui-g {
+    padding:0 !important;
+}

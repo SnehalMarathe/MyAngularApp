@@ -1,0 +1,39 @@
+.primary-panel .ui-panel-titlebar{
+    height: 48px;	
+    border: 1px solid #DBE1E8;	
+    background-color: #F9FAFC;
+    color: #132841;   
+    font-size: 16px;	
+    font-weight: 500;	
+    line-height: 32px;
+}
+.ui-panel .ui-panel-content{
+    border: 1px solid #DBE1E8;	
+    background-color: #FFFFFF;
+    border-top:0;
+    height:100%;
+   
+}
+.ui-panel-content-wrapper{
+    height:100%
+}
+.ui-panel{
+  height:100%
+  
+}
+/*secondary panel*/
+.secondary-panel{
+    margin-top:16px;
+}
+.secondary-panel .ui-panel-titlebar{
+    height: 32px;	
+    border: 1px solid #DBE1E8;
+    background-color: #FFFFFF;
+    color: #132841;  
+    font-size: 14px;	
+    line-height: 16px;
+    font-weight:normal;
+}
+.secondary-panel > .ui-panel > .ui-panel-content-wrapper{
+    height:100%
+}

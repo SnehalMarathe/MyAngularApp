@@ -1,0 +1,40 @@
+.nav-search {
+    display: inline-block;
+    width: 500px;
+    margin-left: 5px;
+    float:right;
+}
+.search-box {
+    float: left;
+    width: 100%;
+    position: relative;
+}
+.search-box a {
+    display: inline-block;
+    position: absolute;
+    top:1px;
+    right: 0;
+    background-color: #0E1E31;   
+}
+.search-box input[type="search"] {
+    border: none;
+    font-size: 1.25em;
+    -webkit-appearance: none;
+    -moz-appearance: none;    
+    background-color: rgba(0, 0, 0, 0.25);
+    color: #FFF;
+    width: 100%;
+    padding: 9px;
+    margin-top: 0;
+    font-weight: 100;
+}
+.unstyled-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.search-box i {
+    font-size: 20px;
+    padding: 8px;
+    color: #5986AD;
+}

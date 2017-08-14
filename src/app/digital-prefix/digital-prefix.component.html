@@ -1,0 +1,93 @@
+<p-panel [ngStyle]="{'height':'100%'}" class="primary-panel">
+    <p-header>
+        Digital Prefix Notifications
+    </p-header>
+    <div class="ui-g" [ngStyle]="{'height':'90%'}">
+
+        <div class="ui-g" [ngStyle]="{'height':'100%'}">
+            <div class="ui-g-2">
+                <span class="label"> Prefix </span>
+            </div>
+            <div class="ui-g-6">
+                <p-dropdown [options]="cities" [filter]="true" [(ngModel)]="selectedCity"></p-dropdown>
+            </div>
+            <div class="ui-g-4">
+                <span class="label"> Pilot Overshare </span>
+            </div>
+            <div [ngStyle]="{'height':'100%', 'margin-top':'16px'}">
+                <div class="ui-g-4" [ngStyle]="{'height':'87%'}">
+                    <p-panel class="secondary-panel">
+                        <p-header>
+                            Status
+                        </p-header>
+
+                        <div class="ui-g checkboxbuttons">
+                            <div class="checkbox-list">
+                                <p-checkbox value="Add" label="Add" [(ngModel)]="selectedValues"> </p-checkbox>
+                            </div>
+                            <div class="checkbox-list">
+                                <p-checkbox name="groupname" value="Scheduled" label="Scheduled" [(ngModel)]="selectedValues">
+                                </p-checkbox>
+                            </div>
+                            <div class="checkbox-list">
+                                <p-checkbox name="groupname" value="Submitted" label="Submitted" [(ngModel)]="selectedValues">
+                                </p-checkbox>
+                            </div>
+                            <div class="checkbox-list">
+                                <p-checkbox name="groupname" value="Pending Assignment" label="Pending Assignment" [(ngModel)]="selectedValues">
+                                </p-checkbox>
+                            </div>
+                            <div class="checkbox-list">
+                                <p-checkbox name="groupname" value="Pending QC" label="Pending QC" [(ngModel)]="selectedValues">
+                                </p-checkbox>
+                            </div>
+                            <div class="checkbox-list">
+                                <p-checkbox name="groupname" value="Pending Ingest" label="Pending Ingest" [(ngModel)]="selectedValues">
+                                </p-checkbox>
+                            </div>
+                            <div class="checkbox-list">
+                                <p-checkbox name="groupname" value="Ingest Complete" label="Ingest Complete" [(ngModel)]="selectedValues">
+                                </p-checkbox>
+                            </div>
+                            <div class="checkbox-list">
+                                <p-checkbox name="groupname" value="Complete" label="Complete" [(ngModel)]="selectedValues">
+                                </p-checkbox>
+                            </div>
+                            <div class="checkbox-list ui-g-nopad">
+                                <p-checkbox name="groupname" value="Troubled" label="Troubled" [(ngModel)]="selectedValues">
+                                </p-checkbox>
+                            </div>
+                            <div class="checkbox-list">
+                                <p-checkbox name="groupname" value="Ready for Distribution" label="Ready for Distribution" [(ngModel)]="selectedValues">
+                                </p-checkbox>
+                            </div>
+                        </div>
+
+                    </p-panel>
+                </div>
+                <div class="ui-g-8" [ngStyle]="{'height':'87%'}">
+                    <p-panel class="secondary-panel">
+                        <p-header>
+                            Send To
+                        </p-header>
+                        <perfect-scrollbar class="container" [config]="config" [ngStyle]="{'height':'100%'}">
+                            <div class="content">
+                                <div class="panel-search">
+                                    <div class="ui-inputgroup">
+                                        <input type="text" pInputText placeholder="Keyword">
+                                        <button pButton type="button" icon="fa-search" class="ui-button-secondary"></button>
+                                    </div>
+                                </div>
+                                <div class="clearfix"></div>
+                                <ul class="list-items">
+                                    <li> Martin.menezes@vimcontractor.com </li>
+                                    <li> Martha.paola.garcia.sanchez-ext@viacomcontractor.com </li>
+                                </ul>
+                            </div>
+                        </perfect-scrollbar>
+                    </p-panel>
+                </div>
+            </div>
+        </div>
+    </div>
+</p-panel>
